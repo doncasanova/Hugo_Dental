@@ -6,9 +6,9 @@
 /*===== NAVBAR EIGHT =====*/
 
 .navbar-area {
-    background: -webkit-linear-gradient(left, rgba(67,202,233,1) 0%, rgba(56,249,215,1) 100%);
-    background: -o-linear-gradient(left, rgba(67,202,233,1) 0%, rgba(56,249,215,1) 100%);
-    background: linear-gradient(to right, rgba(67,202,233,1) 0%, rgba(56,249,215,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(154,67,233,1) 0%, rgba(89,73,152,1) 100%);
+    background: -o-linear-gradient(left, rgba(154,67,233,1) 0%, rgba(89,73,152,1) 100%);
+    background: linear-gradient(to right, rgba(154,67,233,1) 0%, rgba(89,73,152,1) 100%);
     padding: 10px 0;
     position: absolute;
     top: 0;
@@ -128,7 +128,7 @@
                         margin: 0;
                         color: $text-color-one;
                     }
-                    
+
                     &::before {
                         position: absolute;
                         content: '';
@@ -149,6 +149,7 @@
                         }
                     }
                 }
+
                 &.active,
                 &:hover {
                     & > a {
@@ -279,7 +280,8 @@
 
                             & li {
 
-                                & a {}
+                                & a {
+                                }
                             }
                         }
 
@@ -390,16 +392,16 @@
                         @media #{$xs} {
                             color: $text-color-one;
                         }
-                        
-                        &::before{
+
+                        &::before {
                             background-color: $primary;
                         }
                     }
-                    
+
                     &.active,
-                    &:hover{
-                        & a{
-                             color: $primary;
+                    &:hover {
+                        & a {
+                            color: $primary;
                         }
                     }
                 }
@@ -408,9 +410,9 @@
             & .navbar-btn {
                 & .menu-bar {
                     color: $white;
-                    
-                    &:hover{
-                         color: $primary;
+
+                    &:hover {
+                        color: $primary;
                     }
                 }
             }
@@ -431,11 +433,11 @@
                         & a {
                             color: $text-color-one;
                         }
-                        
+
                         &.active,
-                        &:hover{
-                            & a{
-                                 color: $primary;
+                        &:hover {
+                            & a {
+                                color: $primary;
                             }
                         }
                     }
@@ -444,9 +446,9 @@
                 & .navbar-btn {
                     & .menu-bar {
                         color: $text-color-one;
-                        
-                        &:hover{
-                             color: $primary;
+
+                        &:hover {
+                            color: $primary;
                         }
                     }
                 }
@@ -456,7 +458,7 @@
 
     &.navbar-transparent-2 {
         background: transparent;
-        
+
         & .navbar {
             & .navbar-toggler {
                 & .toggler-icon {
@@ -476,16 +478,16 @@
                         @media #{$xs} {
                             color: $text-color-one;
                         }
-                        
-                        &::before{
+
+                        &::before {
                             background-color: $primary;
                         }
                     }
-                    
+
                     &.active,
-                    &:hover{
-                        & a{
-                             color: $primary;
+                    &:hover {
+                        & a {
+                            color: $primary;
                         }
                     }
                 }
@@ -494,9 +496,9 @@
             & .navbar-btn {
                 & .menu-bar {
                     color: $white;
-                    
-                    &:hover{
-                         color: $primary;
+
+                    &:hover {
+                        color: $primary;
                     }
                 }
             }
