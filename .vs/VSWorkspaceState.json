@@ -3,8 +3,9 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\assets\\scss"
+    "\\assets\\images",
+    "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\scss\\_header.scss",
+  "SelectedNode": "\\assets\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }
