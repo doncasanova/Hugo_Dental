@@ -600,20 +600,21 @@ p {
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
 .navbar-area {
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
-  padding: 10px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
+    background: -webkit-linear-gradient(left, #9370db 0%, #bca6eb 100%);
+    background: -o-linear-gradient(left, #9370db 0%, #bca6eb 100%);
+    background: linear-gradient(to right, #9370db 0%, #bca6eb 100%);
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
   .navbar-area .navbar-brand img {
     max-width: 150px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -968,8 +969,9 @@ p {
         background-color: #121212; }
       .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item a {
         color: #121212; }
-      .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item.active a, .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item:hover a {
-        color: #38f9d7; }
+        .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item.active a, .navbar-area.navbar-transparent.sticky .navbar .navbar-nav .nav-item:hover a {
+            color: #9370db;
+        }
       .navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar {
         color: #121212; }
         .navbar-area.navbar-transparent.sticky .navbar .navbar-btn .menu-bar:hover {
