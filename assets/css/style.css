@@ -38,7 +38,7 @@ body {
   box-sizing: border-box; }
 
 img {
-  max-width: 100%; }
+  max-width: 35%; }
 
 a:focus,
 input:focus,
@@ -115,10 +115,12 @@ p {
       font-size: 30px;
       line-height: 35px; } }
 .section-title .text {
-  font-size: 16px;
-  line-height: 24px;
-  color: #6c6c6c;
-  margin-top: 24px; }
+    font-size: 18px;
+    font-family: "serif";
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-top: 24px;
+}
 
 /*===== All Preloader Style =====*/
 .preloader {
@@ -1468,12 +1470,13 @@ p {
       .about-area-3 .about-content .about-title {
         font-size: 32px;
         line-height: 35px; } }
-  .about-area-3 .about-content .text {
+.about-area-3 .about-content .text {
     color: #6c6c6c;
     font-size: 20px;
     font-weight: 500;
     margin-top: 16px;
-    line-height: 25px; }
+    line-height: 25px;
+}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .about-area-3 .about-content .text {
         font-size: 18px; } }
