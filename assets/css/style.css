@@ -38,7 +38,20 @@ body {
   box-sizing: border-box; }
 
 img {
-  max-width: 35%; }
+  max-width: 100%;
+}
+.kris img {
+    max-width: 50% !important;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.pat img {
+    position: relative;
+    top: -18px;
+    margin-right: 10px;
+    max-width: 60% !important;
+    border-radius: 10px;
+}
 
 a:focus,
 input:focus,
@@ -1272,11 +1285,13 @@ p {
         .header-hero .header-content .header-title {
           font-size: 30px;
           line-height: 40px; } }
-    .header-hero .header-content .text {
-      font-size: 20px;
-      line-height: 32px;
-      color: #6c6c6c;
-      margin-top: 16px; }
+.header-hero .header-content .text {
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+    text-shadow: 1px 1px mediumpurple;
+    margin-top: 16px;
+}
       @media (max-width: 767px) {
         .header-hero .header-content .text {
           font-size: 16px;
