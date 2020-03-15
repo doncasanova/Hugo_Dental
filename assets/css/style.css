@@ -115,12 +115,25 @@ p {
   width: 100%;
   height: 100%; }
 
+.opacity {
+    position:relative;
+    top: 100px;
+    opacity: .9;
+}
+
+.dr-org {
+    text-align: center;
+    padding-top:10px;
+    font-style:italic;
+    font-size:large;
+}
 /*==== Section Title =====*/
 .section-title .title {
-  font-size: 44px;
-  font-weight: 500;
-  color: #121212;
-  line-height: 55px; }
+    font-size: 44px;
+    font-weight: 500;
+    color: #121212;
+    line-height: 55px;
+}
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px;
