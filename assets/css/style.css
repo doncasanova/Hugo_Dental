@@ -127,6 +127,13 @@ p {
     font-style:italic;
     font-size:large;
 }
+.service1 {
+    padding-bottom: 55px;
+}
+
+.service5 {
+    padding-bottom: 80px;
+}
 /*==== Section Title =====*/
 .section-title .title {
     font-size: 44px;
