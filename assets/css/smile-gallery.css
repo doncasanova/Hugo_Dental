@@ -1,0 +1,40 @@
+.smile1 {
+    width: 100%;
+    height: 450px;
+    background: url("../images/smile_gallery/1 - Bonding Before.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .smile1:hover {
+        background: url("../images/smile_gallery/1 - Bonding After.jpg") no-repeat;
+    }
+.smile2 {
+    width: 100%;
+    height: 450px;
+    background: url("../images/smile_gallery/10 - Porcelain Crowns Before 3.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .smile2:hover {
+        background: url("../images/smile_gallery/10 - Porcelain Crowns After 3.jpg") no-repeat;
+    }
+.smile3 {
+    width: 100%;
+    height: 450px;
+    background: url("../images/smile_gallery/1 - Bonding Before.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .smile3:hover {
+        background: url("../images/smile_gallery/1 - Bonding After.jpg") no-repeat;
+    }
+.smile4 {
+    width: 100%;
+    height: 300px;
+    background: url("../images/smile_gallery/1 - Bonding Before.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .smile4:hover {
+        background: url("../images/smile_gallery/1 - Bonding After.jpg") no-repeat;
+    }
