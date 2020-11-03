@@ -2096,6 +2096,7 @@ p {
   padding-bottom: 120px; }
 
 .single-blog .blog-image img {
+  padding:100%;
   width: 100%;
   border-radius: 8px; }
 .single-blog .blog-content {
