@@ -40,6 +40,11 @@ body {
 img {
   max-width: 100%;
 }
+
+.single-client img {
+    max-width: 100%;
+}
+
 .kris img {
     max-width: 50% !important;
     margin-right: 10px;
