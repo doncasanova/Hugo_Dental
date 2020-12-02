@@ -2358,3 +2358,18 @@ p {
     }
 
 /*# sourceMappingURL=style.css.map */
+
+/*consultation*/
+
+.consult{
+    color:purple;
+}
+.header-start{
+    padding-top:100px;
+}
+@media (max-width: 767px) {
+    .prevention {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
