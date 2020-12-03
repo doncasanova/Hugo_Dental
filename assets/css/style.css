@@ -2360,7 +2360,10 @@ p {
 /*# sourceMappingURL=style.css.map */
 
 /*consultation*/
-
+.section-2 {
+    background-color: lightgoldenrodyellow;
+    padding-bottom:10px;
+}
 .consult{
     color:purple;
 }
