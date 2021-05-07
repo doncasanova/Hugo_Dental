@@ -59,12 +59,12 @@
 .smile6 {
     width: 100%;
     height: 275px;
-    background: url("../images/smile_gallery/6 - Porcelain Crowns.jpg") no-repeat;
+    background: url("../images/smile_gallery/6 - Porcelain Crowns After.jpg") no-repeat;
     display: inline-block;
 }
 
     .smile6:hover {
-        background: url("../images/smile_gallery/6 - Porcelain Crowns.jpg") no-repeat;
+        background: url("../images/smile_gallery/6 - Porcelain Crowns before.jpg") no-repeat;
     }
 
 .smile7 {
