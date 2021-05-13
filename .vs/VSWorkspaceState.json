@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\images"
+    "\\assets\\css",
+    "\\assets\\images",
+    "\\assets\\images\\smile_gallery"
   ],
-  "SelectedNode": "\\consultation.html",
+  "SelectedNode": "\\restorative.html",
   "PreviewInSolutionExplorer": false
 }
