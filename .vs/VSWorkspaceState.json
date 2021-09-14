@@ -4,8 +4,9 @@
     "\\assets",
     "\\assets\\css",
     "\\assets\\images",
-    "\\assets\\images\\smile_gallery"
+    "\\assets\\images\\smile_gallery",
+    "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\css\\bootstrap.min.css",
+  "SelectedNode": "\\assets\\js",
   "PreviewInSolutionExplorer": false
 }

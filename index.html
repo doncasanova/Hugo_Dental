@@ -28,6 +28,23 @@
     <link rel="stylesheet" href="assets/css/smile-gallery.css">
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/google-places.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCq0JGu5-FLNx4AFimOlL435Vq70MudU4g"></script>
+
+    <script>
+        (function ($) {
+            console.log("test4321")
+            $("#google-reviews").googlePlaces({
+                placeId: '[ChIJa1SzSAzbslIR0-thRaDdrw8]',
+                render: ['reviews'],
+                min_rating: 5,
+                max_rows: 0
+            });
+        })(jQuery);
+    </script>
+
 </head>
 
 <body>
@@ -102,34 +119,9 @@
             </div> <!-- container -->
         </div> <!-- navbar area -->
 
-        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/hugo-dental-main.jpg)">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-10">
-                        <div class="header-content text-center">
-                            <div class="container">
-                                <div class="row d-flex justify-content-center">
-                                    <div class="col-lg-12 col-12 bg-white rounded-lg opacity">
-                                        <div class="section-title wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <h4 class="title text-center">Hugo Dental Care</h4>
-                                            <p class="text text-center">
-                                                At Hugo Dental Care, we are interested in complete dental health.<br>
-                                                We take a different approach to dentistry that never settles for the status quo; instead,<br>
-                                                we strive to stay on top of the most advanced technologies and give you,<br> our patients,
-                                                the best dental care possible.
-                                            </p>
-                                            <div class="text text-center">
-                                                <h4 class="box-title">Schedule Your Appointment Today</h4>
-                                                <a href="tel:651-426-1639">651.426.1639</a>
-                                            </div>
-                                        </div> <!-- section title -->
-                                    </div>
-                                </div> <!-- row -->
-                            </div>
-                        </div> <!-- header content -->
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+        <div class="insertImagesHere"> </div>
+        <!-- Background image here-->
+           
             <div class="header-shape">
                 <img src="assets/images/header-shape.svg" alt="shape">
             </div>
@@ -409,18 +401,20 @@
     <!--====== CALL TO ACTION TWO PART ENDS ======-->
     <!--====== TESTIMONIAL THREE PART START ======-->
 
-    <section id="testimonial" class="testimonial-area testimonial-2">
+    <div id="google-reviews"></div>
+
+    <!--<section id="testimonial" class="testimonial-area testimonial-2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title text-center pb-20">
                         <h3 class="title">Testimonial (need content here)</h3>
                         <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
+                    </div>--> <!-- section title -->
+                <!--</div>
+            </div>--> <!-- row -->
 
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-lg-12">
                     <div class="row testimonial-active-2">
                         <div class="col-lg-4">
@@ -433,8 +427,8 @@
                                     <h6 class="author-name">Isabela Moreira</h6>
                                     <span class="sub-title">CEO, GrayGrids</span>
                                 </div>
-                            </div> <!-- single testimonial -->
-                        </div>
+                            </div>--> <!-- single testimonial -->
+                        <!--</div>
                         <div class="col-lg-4">
                             <div class="single-testimonial mt-30 mb-30 text-center">
                                 <div class="testimonial-image">
@@ -445,8 +439,8 @@
                                     <h6 class="author-name">Fiona</h6>
                                     <span class="sub-title">Lead Designer, UIdeck</span>
                                 </div>
-                            </div> <!-- single testimonial -->
-                        </div>
+                            </div>--> <!-- single testimonial -->
+                        <!--</div>
                         <div class="col-lg-4">
                             <div class="single-testimonial mt-30 mb-30 text-center">
                                 <div class="testimonial-image">
@@ -457,13 +451,13 @@
                                     <h6 class="author-name">Elon Musk</h6>
                                     <span class="sub-title">CEO, SpaceX</span>
                                 </div>
-                            </div> <!-- single testimonial -->
-                        </div>
-                    </div> <!-- row -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+                            </div>--> <!-- single testimonial -->
+                        <!--</div>
+                    </div>--> <!-- row -->
+                <!--</div>
+            </div>--> <!-- row -->
+        <!--</div>--> <!-- container -->
+    <!--</section>-->
 
     <!--====== TESTIMONIAL THREE PART ENDS ======-->
     <!--====== CLIENT PART START ======-->
@@ -516,7 +510,7 @@
                             <!--img src="assets/images/smile_gallery/1 - Bonding Before.jpg" alt="Blog">-->
                         </div>
                         <div class="blog-content">
-                            <h4 class="blog-title">Bonding After</h4>                           
+                            <h4 class="blog-title">Bonding After</h4>
                         </div>
                     </div> <!-- single blog -->
                 </div>
@@ -540,83 +534,83 @@
                         </div>
                     </div> <!-- single blog -->
                 </div>
-                    <div class="col-lg-4 col-md-7 col-sm-9">
-                        <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                            <div class="blog-image smile4">
-                                <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                            </div>
-                            <div class="blog-content">
-                                <h4 class="blog-title">Replace old crowns</h4>
-                            </div>
-                        </div> <!-- single blog -->
-                    </div>
-                    <div class="col-lg-4 col-md-7 col-sm-9">
-                        <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                            <div class="blog-image smile5">
-                                <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                            </div>
-                            <div class="blog-content">
-                                <h4 class="blog-title">Porcelain Crowns</h4>
-                            </div>
-                        </div> <!-- single blog -->
-                    </div>
-                            <div class="col-lg-4 col-md-7 col-sm-9">
-                                <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                                    <div class="blog-image smile6">
-                                        <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                                    </div>
-                                    <div class="blog-content">
-                                        <h4 class="blog-title">Porcelain Crowns</h4>
-                                    </div>
-                                </div> <!-- single blog -->
-                            </div>
-                            <div class="col-lg-4 col-md-7 col-sm-9">
-                                <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                                    <div class="blog-image smile7">
-                                        <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                                    </div>
-                                    <div class="blog-content">
-                                        <h4 class="blog-title">Porcelain Crowns</h4>
-                                    </div>
-                                </div> <!-- single blog -->
-                            </div>
-                                <div class="col-lg-4 col-md-7 col-sm-9">
-                                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                                        <div class="blog-image smile8">
-                                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                                        </div>
-                                        <div class="blog-content">
-                                            <h4 class="blog-title">Porcelain Crowns</h4>
-                                        </div>
-                                    </div> <!-- single blog -->
-                                </div>
-                                <div class="col-lg-4 col-md-7 col-sm-9">
-                                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                                        <div class="blog-image smile9">
-                                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                                        </div>
-                                        <div class="blog-content">
-                                            <h4 class="blog-title">Porcelain Crowns</h4>
-                                        </div>
-                                    </div> <!-- single blog -->
-                                </div>
-                                    <div class="col-lg-4 col-md-7 col-sm-9">
-                                        <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
-                                            <div class="blog-image smile10">
-                                                <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
-                                            </div>
-                                            <div class="blog-content">
-                                                <h4 class="blog-title">Porcelain Crowns</h4>
-                                            </div>
-                                        </div> <!-- single blog -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile4">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
                         </div>
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                        <div class="blog-content">
+                            <h4 class="blog-title">Replace old crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile5">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile6">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile7">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile8">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile9">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-blog mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s">
+                        <div class="blog-image smile10">
+                            <!--<img src="assets/images/blog-1.jpg" alt="Blog">-->
+                        </div>
+                        <div class="blog-content">
+                            <h4 class="blog-title">Porcelain Crowns</h4>
+                        </div>
+                    </div> <!-- single blog -->
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div> <!-- row -->
+        </div> <!-- container -->
     </section>
 
     <!--====== BLOG PART ENDS ======-->
@@ -733,7 +727,7 @@
 
 
 
-                       
+
                     </div>
                     <div class="col-lg-2">
                         <div class="footer-logo text-center mt-10">
@@ -793,6 +787,9 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <!--====== Background js ======-->
+    <script src="assets/js/change-background-image.js"></script>
 
 </body>
 
