@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
     "\\assets\\images",
-    "\\assets\\images\\smile_gallery",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js",
+  "SelectedNode": "\\assets\\js\\ajax-contact.js",
   "PreviewInSolutionExplorer": false
 }

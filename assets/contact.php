@@ -6,7 +6,7 @@
         $name = strip_tags(trim($_POST["name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-        $message = trim($_POST["massage"]);
+        $message = trim($_POST["message"]);
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -18,8 +18,8 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "contactformtestgg@gmail.com";
-
+        $recipient = "hdc@hugodentalcare.com";
+        //$recipient = "don@midwestcamsolutions.com";
         // Set the email subject.
         $subject = "$name";
 
